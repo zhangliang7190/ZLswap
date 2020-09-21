@@ -1,7 +1,7 @@
 {
   "name": "@uniswap/interface",
   "description": "Uniswap Interface",
-  "homepage": "https://zhangliang7190.github.io/ZLswap",
+  "homepage": ".",
   "private": true,
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
@@ -88,8 +88,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
-    "deploy": "gh-pages -d build"
+    "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'"
   },
   "eslintConfig": {
     "extends": "react-app"
